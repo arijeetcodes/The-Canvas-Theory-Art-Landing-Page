@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper-container {
-  background-color: #ebeae9;
+  background-color: white;
 }
 
 html {
@@ -72,32 +72,37 @@ li a {
   background: rgb(144, 195, 200);
   color: white;
   padding: 5px;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: bold;
-  /* border: 2px solid black; */
   border-radius: 12px;
+  border: 4px solid transparent;
+}
+li a:hover {
+  color: rgb(144, 195, 200);
+  background: white;
+  border: 4px solid rgb(144, 195, 200);
+  transition: 0.2s ease-out;
 }
 nav .burger {
-  margin-right: 5rem;
-  /* gives a margin of 5rem to the right */
-  cursor: pointer;
-  /* converts the cursor to a pointer when hovered */
-}
-nav .burger span {
-  height: 4px;
-  /* gives a border of 2px black colored */
-  margin: 5px;
-  /* gives a margin of 4px around each element of the span tag */
-  padding: 5px;
-  border-radius: 12px;
-  font-size: 1rem;
-  font-weight: bold;
-  background: rgb(144, 195, 200);
-  /* turns the background color for each element to black */
+  display: flex;
 }
 .burger a {
   text-decoration: none;
   color: white;
+  background: rgb(144, 195, 200);
+  /* turns the background color for each element to black */
+  padding: 5px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 10px;
+  border: 4px solid transparent;
+}
+.burger a:hover {
+  color: rgb(144, 195, 200);
+  background: white;
+  border: 4px solid rgb(144, 195, 200);
+  transition: 0.2s ease-out;
 }
 /* Nav End */
 
@@ -116,7 +121,7 @@ header {
 }
 header .main-headings {
   background: rgb(144, 195, 200);
-  color: #ebeae9;
+  color: white;
   border-radius: 12px;
   width: 33%;
   padding: 10px;
@@ -244,7 +249,7 @@ main .img {
 }
 .section-three .main-headings {
   background: rgb(144, 195, 200);
-  color: #ebeae9;
+  color: white;
   width: 30%;
   padding: 5px;
   height: 145px;
@@ -272,9 +277,16 @@ main .img {
 .section-three .item h1 a {
   text-decoration: none;
   background: rgb(144, 195, 200);
-  color: #ebeae9;
+  color: white;
   padding: 5px;
   border-radius: 12px;
+  border: 4px solid transparent;
+}
+.section-three .item h1 a:hover {
+  color: rgb(144, 195, 200);
+  background: white;
+  border: 4px solid rgb(144, 195, 200);
+  transition: 0.2s ease-out;
 }
 .section-three img {
   width: 400px;
@@ -316,6 +328,13 @@ footer .logo-container h1 a {
   background: white;
   padding: 5px;
   border-radius: 12px;
+  border: 4px solid transparent;
+}
+footer .logo-container h1 a:hover {
+  color: white;
+  background: rgb(144, 195, 200);
+  border: 4px solid white;
+  transition: 0.2s ease-out;
 }
 footer .logo-container p {
   max-width: 400px;
@@ -350,7 +369,7 @@ footer .about-company .container {
 }
 .about-company .container p {
   font-family: sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .about-company .container a {
   text-decoration: none;
@@ -358,6 +377,13 @@ footer .about-company .container {
   background: white;
   padding: 5px;
   border-radius: 12px;
+  border: 4px solid transparent;
+}
+.about-company .container a:hover {
+  color: white;
+  background: rgb(144, 195, 200);
+  border: 4px solid white;
+  transition: 0.2s ease-out;
 }
 /* Footer End */
 
